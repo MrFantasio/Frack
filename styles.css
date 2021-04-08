@@ -1,0 +1,125 @@
+.blackBox {
+  width: 9em;
+  height: 10em;
+  background-color: black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
+}
+.whiteBox {
+  width: 5em;
+  height: 8em;
+  background-color: white;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
+}
+
+.background{
+  width: 20em;
+  height: 20em;
+  border-radius: 15px;
+  border: 10px solid red;
+  background-color: yellow;
+}
+.vestTriangle{
+  width: 0;
+  height: 0;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-top: 1em solid green;
+  box-shadow: rgba(0, 0, 0, .5) -2px -2px -5px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+
+}
+.wrapperButtons {
+  padding-top: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.shirtbutton{
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: grey;
+  margin: auto;
+  margin-bottom: 1.5em;
+  overflow: auto;
+}
+.leftTriangle {
+  width: 0;
+  height: 0;
+  border-top: 5em solid transparent;
+  border-right: 1em solid black;
+  border-bottom: 4em solid transparent;
+  float: right;
+
+}
+.rightTriangle {
+  width: 0;
+  height: 0;
+  border-top: 5em solid transparent;
+  border-left: 1em solid black;
+  border-bottom: 4em solid transparent;
+  float: left;
+}
+.leftTail{
+  width: 0;
+  height: 0;
+  border-left: 2em solid transparent;
+  border-right: 6em solid black;
+  border-bottom: 7em solid transparent;
+  margin: auto;
+  padding-right: 1em;
+  float: right;
+  position: absolute;
+
+}
+.rightTail{
+  width: 0;
+  height: 0;
+  border-right: 2em solid transparent;
+  border-left: 6em solid black;
+  border-bottom: 7em solid transparent;
+  margin: auto;
+  padding-left: 1em;
+  float: left;
+  position: absolute;
+
+}
+.bowtieCircle{
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  background-color: grey;
+  position: absolute;
+  margin-left: 4em;
+  margin-bottom: 1em;
+}
+.bowtieRight{
+  width: 0;
+  height: 0;
+  border-top: 0.75em solid transparent;
+  border-left: 0.75em solid grey;
+  border-bottom: 0.75em solid transparent;
+  float: left;
+  position: absolute;
+  margin-left: 3.5em;
+  margin-top: -0.3em;
+}
+.bowtieLeft{
+  width: 0;
+  height: 0;
+  border-top: 0.75em solid transparent;
+  border-right: 0.75em solid grey;
+  border-bottom: 0.75em solid transparent;
+  float: left;
+  position: absolute;
+  margin-left: 4.75em;
+  margin-top: -0.3em;
+}
